@@ -1,0 +1,22 @@
+nIsladeServiciosVillaSalvador# show ip bgp summary 
+BGP summary information for VRF default, address family IPv4 Unicast
+BGP router identifier 190.116.132.9, local AS number 65000
+BGP table version is 557978, IPv4 Unicast config peers 10, capable peers 9
+10784 network entries and 19954 paths using 1801144 bytes of memory
+BGP attribute entries [135/18360], BGP AS path entries [43/874]
+BGP community entries [12/464], BGP clusterlist entries [0/0]
+20562 received paths for inbound soft reconfiguration
+19892 identical, 29 modified, 641 filtered received paths using 25872 bytes
+
+Neighbor        V    AS MsgRcvd MsgSent   TblVer  InQ OutQ Up/Down  State/PfxRcd
+179.6.58.62     4 11344  147627  175928   557978    0    0    2d21h 0         
+179.6.59.2      4 40027   83965   79321   557978    0    0     2w6d 0         
+179.6.59.6      4 40027   84291   79647   557978    0    0     2w5d Idle         
+179.6.60.16     4 63293   74540   95603   557978    0    0     2w3d 0         
+179.6.63.16     4 65535  147575  192544   557978    0    0    3d20h 0         
+179.6.255.80    4 65535  147568  203660   557978    0    0 19:37:47 0         
+190.116.132.1   4 12252  481652  442499   557978    0    0     6w2d 9789      
+190.116.132.7   4 12252  489580  442383   557978    0    0     7w2d 10102     
+190.116.133.229 4 63293       0   58815        0    0    0     7w2d Idle     
+195.245.126.49  4 21357   73812   95272   557978    0    0     4w0d 0         
+nIsladeServiciosVillaSalvador# 

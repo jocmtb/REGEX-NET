@@ -1,0 +1,115 @@
+nIsladeServiciosVillaSalvador# show mac address-table 
+ Note: MAC table entries displayed are getting read from software.
+ Use the 'hardware-age' keyword to get information related to 'Age' 
+
+ Legend: 
+        * - primary entry, G - Gateway MAC, (R) - Routed MAC, O - Overlay MAC
+        age - seconds since last seen,+ - primary entry using vPC Peer-Link,
+        (T) - True, (F) - False ,  ~~~ - use 'hardware-age' keyword to retrieve age info 
+   VLAN     MAC Address      Type      age     Secure NTFY Ports/SWID.SSID.LID
+---------+-----------------+--------+---------+------+----+------------------
+* 1006     0000.0c07.ac64    static       -       F    F  Eth3/48
+G     -    8478.ac27.82c1    static       -       F    F  sup-eth1(R)
+G 120      8478.ac27.82c1    static       -       F    F  sup-eth1(R)
+G 121      8478.ac27.82c1    static       -       F    F  sup-eth1(R)
+G 122      8478.ac27.82c1    static       -       F    F  sup-eth1(R)
+G 123      8478.ac27.82c1    static       -       F    F  sup-eth1(R)
+G 126      8478.ac27.82c1    static       -       F    F  sup-eth1(R)
+G 1003     8478.ac27.82c1    static       -       F    F  sup-eth1(R)
+G 1005     8478.ac27.82c1    static       -       F    F  sup-eth1(R)
+G 1006     8478.ac27.82c1    static       -       F    F  sup-eth1(R)
+G 1007     8478.ac27.82c1    static       -       F    F  sup-eth1(R)
+G 1008     8478.ac27.82c1    static       -       F    F  sup-eth1(R)
+G 1009     8478.ac27.82c1    static       -       F    F  sup-eth1(R)
+G 1011     8478.ac27.82c1    static       -       F    F  sup-eth1(R)
+G 1012     8478.ac27.82c1    static       -       F    F  sup-eth1(R)
+G 1015     8478.ac27.82c1    static       -       F    F  sup-eth1(R)
+* 120      d89d.672a.8218    dynamic     ~~~      F    F  Po9
+* 121      d89d.672a.cb82    dynamic     ~~~      F    F  Po11
+* 122      d89d.6729.0660    dynamic     ~~~      F    F  Po10
+* 123      e007.1bf7.9502    dynamic     ~~~      F    F  Po19
+* 126      e007.1bf7.8597    dynamic     ~~~      F    F  Po20
+* 1003     f8bc.123d.521c    dynamic     ~~~      F    F  Po7
+* 1003     f8bc.123d.5224    dynamic     ~~~      F    F  Po5
+* 1003     f8bc.123d.5b6c    dynamic     ~~~      F    F  Po3
+* 1003     f8bc.123d.6fa4    dynamic     ~~~      F    F  Po4
+* 1003     f8bc.123d.6fc0    dynamic     ~~~      F    F  Po6
+* 1003     f8bc.123d.7cb0    dynamic     ~~~      F    F  Po8
+* 1003     f8bc.123e.d13c    dynamic     ~~~      F    F  Po2
+* 1003     f8bc.123e.daf8    dynamic     ~~~      F    F  Po1
+* 1005     0025.902b.4297    dynamic     ~~~      F    F  Eth5/48
+* 1006     8478.ac27.87c1    dynamic     ~~~      F    F  Eth3/48
+* 1006     ac16.2db8.3738    dynamic     ~~~      F    F  Eth3/5
+* 1006     ac16.2db8.6408    dynamic     ~~~      F    F  Eth3/48
+* 1007     b083.fed0.52a9    dynamic     ~~~      F    F  Po26
+* 1007     b083.fed3.ac66    dynamic     ~~~      F    F  Po23
+* 1007     b083.fed3.e571    dynamic     ~~~      F    F  Po27
+* 1007     b083.fed4.2be6    dynamic     ~~~      F    F  Po22
+* 1007     b083.fed6.4abd    dynamic     ~~~      F    F  Po21
+* 1007     b083.fed6.a27f    dynamic     ~~~      F    F  Po24
+* 1007     b083.fed6.a8cb    dynamic     ~~~      F    F  Po28
+* 1007     c81f.66c5.39b0    dynamic     ~~~      F    F  Po27
+* 1008     1c98.ec1b.3d66    dynamic     ~~~      F    F  Po13
+* 1009     008c.fa15.35d2    dynamic     ~~~      F    F  Po12
+* 1009     008c.fa15.35d3    dynamic     ~~~      F    F  Po12
+* 1009     008c.fa15.35fa    dynamic     ~~~      F    F  Po12
+* 1009     008c.fa15.35fb    dynamic     ~~~      F    F  Po12
+* 1009     008c.fa15.37f2    dynamic     ~~~      F    F  Po12
+* 1009     008c.fa15.37f3    dynamic     ~~~      F    F  Po12
+* 1009     008c.fa15.3832    dynamic     ~~~      F    F  Po12
+* 1009     008c.fa15.3833    dynamic     ~~~      F    F  Po12
+* 1009     008c.fa15.3bfe    dynamic     ~~~      F    F  Po12
+* 1009     008c.fa15.3bff    dynamic     ~~~      F    F  Po12
+* 1009     008c.fa15.3f28    dynamic     ~~~      F    F  Po12
+* 1009     008c.fa15.3f29    dynamic     ~~~      F    F  Po12
+* 1009     008c.fa15.3f84    dynamic     ~~~      F    F  Po12
+* 1009     008c.fa15.3f85    dynamic     ~~~      F    F  Po12
+* 1009     008c.fa15.5954    dynamic     ~~~      F    F  Po12
+* 1009     008c.fa15.5955    dynamic     ~~~      F    F  Po12
+* 1009     008c.fa15.59a4    dynamic     ~~~      F    F  Po12
+* 1009     008c.fa15.59a5    dynamic     ~~~      F    F  Po12
+* 1009     008c.fa15.59c8    dynamic     ~~~      F    F  Po12
+* 1009     008c.fa15.59c9    dynamic     ~~~      F    F  Po12
+* 1009     008c.fa17.614b    dynamic     ~~~      F    F  Po12
+* 1009     008c.fa17.6218    dynamic     ~~~      F    F  Po12
+* 1009     008c.fa17.6219    dynamic     ~~~      F    F  Po12
+* 1009     008c.fa17.6426    dynamic     ~~~      F    F  Po12
+* 1009     008c.fa17.6427    dynamic     ~~~      F    F  Po12
+* 1009     008c.fa17.64c8    dynamic     ~~~      F    F  Po12
+* 1009     008c.fa17.64c9    dynamic     ~~~      F    F  Po12
+* 1009     008c.fa17.6cfc    dynamic     ~~~      F    F  Po12
+* 1009     008c.fa17.6e3a    dynamic     ~~~      F    F  Po12
+* 1009     008c.fa17.6e3b    dynamic     ~~~      F    F  Po12
+* 1009     008c.fa17.850c    dynamic     ~~~      F    F  Po12
+* 1009     008c.fa17.850d    dynamic     ~~~      F    F  Po12
+* 1009     008c.fa17.877c    dynamic     ~~~      F    F  Po12
+* 1009     008c.fa17.877d    dynamic     ~~~      F    F  Po12
+* 1009     008c.fa17.8ac8    dynamic     ~~~      F    F  Po12
+* 1009     008c.fa17.8ac9    dynamic     ~~~      F    F  Po12
+* 1009     008c.fa17.8dfe    dynamic     ~~~      F    F  Po12
+* 1009     008c.fa17.8dff    dynamic     ~~~      F    F  Po12
+* 1009     008c.fa17.ec12    dynamic     ~~~      F    F  Po12
+* 1009     00e0.81cc.b65b    dynamic     ~~~      F    F  Po12
+* 1009     00e0.81cc.b760    dynamic     ~~~      F    F  Po12
+* 1009     00e0.81cc.b761    dynamic     ~~~      F    F  Po12
+* 1009     00e0.81e2.8c26    dynamic     ~~~      F    F  Po12
+* 1009     00e0.81e2.8c27    dynamic     ~~~      F    F  Po12
+* 1009     00e0.81e2.8fca    dynamic     ~~~      F    F  Po12
+* 1009     00e0.81e2.8fcb    dynamic     ~~~      F    F  Po12
+* 1009     00e0.81e2.a79a    dynamic     ~~~      F    F  Po12
+* 1009     00e0.81e2.a79b    dynamic     ~~~      F    F  Po12
+* 1009     00e0.81e6.aa98    dynamic     ~~~      F    F  Po12
+* 1009     00e0.81e6.aa99    dynamic     ~~~      F    F  Po12
+* 1009     a042.3f00.2043    dynamic     ~~~      F    F  Po12
+* 1011     0007.4333.6990    dynamic     ~~~      F    F  Po31
+* 1012     0007.4333.5dd0    dynamic     ~~~      F    F  Po32
+* 1015     1866.da77.b77e    dynamic     ~~~      F    F  Eth3/24
+* 1015     1866.da77.bbe8    dynamic     ~~~      F    F  Eth3/25
+* 1015     1866.da77.c800    dynamic     ~~~      F    F  Eth6/24
+* 1015     1866.da77.d523    dynamic     ~~~      F    F  Eth3/1
+* 1015     1866.da77.e051    dynamic     ~~~      F    F  Eth6/2
+* 1015     1866.da77.e0e1    dynamic     ~~~      F    F  Eth6/25
+* 1015     1866.da78.0798    dynamic     ~~~      F    F  Eth6/1
+* 1015     1866.da78.07bc    dynamic     ~~~      F    F  Eth3/2
+
+nIsladeServiciosVillaSalvador# 
