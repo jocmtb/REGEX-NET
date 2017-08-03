@@ -1,0 +1,37 @@
+import math
+import sys
+
+print '''
+  K1=1        K3=1
+
+     EIGRP                 10^7    sum(Delay)
+COMPOSITE METRIC= 65536 [------- + ----------]
+                          BWmin      10^6
+	  
+   EIGRP RIB = EIGRP COMPOSITE METRIC / RIB-SCALE
+'''
+
+if len(sys.argv)==3:
+	bandwith=float(sys.argv[1])
+	delay=float(sys.argv[2])
+else:
+	delay=11250000.0
+	bandwith=1000000.0
+RIB=128
+
+K1=10000000/bandwith
+K2=delay/1000000
+
+METRIC1=65536*(K1+K2)
+METRIC2=METRIC1/RIB
+
+print "Calculation EIGRP Wide Metrics"
+print "==============================="
+print
+print "BWmin : "+ str(bandwith)+ " Kbps"
+print "sum(Delay) : "+ str(delay) + " psec"
+print "METRIC TOPOLOGY : " + str(METRIC1)
+print "METRIC RIB : " + str(METRIC2)
+
+
+raw_input("\nIngresa keystroke...")
