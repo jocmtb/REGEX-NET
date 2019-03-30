@@ -1,5 +1,7 @@
-# REGEX-NET
+# CLASS SSH IOS XR
 scripts in python to parse text output from network devices
+
+Class to get and parse IOS XR commands
 
 1. Regex OSPF
   > Check differences in the OSPF Database from 1 Area
